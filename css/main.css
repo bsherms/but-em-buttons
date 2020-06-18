@@ -22,7 +22,8 @@ a {
 
 .btn-ghost {
   color: #90ccc3;
-  border: 2px solid #b4fff4;
+  border: 2px solid
+  border-color: #b4fff4;
   border-radius: 6px;
   padding: 15px;
   transition: all 250ms ease;
@@ -31,7 +32,8 @@ a {
 .btn-ghost:hover,
 .btn-ghost:focus {
   background-color: rgba(180, 255, 244, .2);
-  border: 2px solid #b4fff4;
+  border: 2px solid
+  border-color: #b4fff4;
 }
 
 .icon {
