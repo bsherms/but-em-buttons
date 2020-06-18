@@ -1,5 +1,5 @@
 html {
-  font-family: "Unbuntu Condensed", sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
   color: #fff;
 }
 
@@ -8,13 +8,46 @@ body {
 }
 
 .banner-content {
-
+  padding-top: 12em;
 }
 
-.btn {
+.text {
+  text-shadow: 1px 1px 10px rgba(255, 255, 255, .7);
+}
 
+a {
+  text-decoration: none;
+  color: #b4fff4;
 }
 
 .btn-ghost {
+  color: #90ccc3;
+  border: 2px solid #b4fff4;
+  border-radius: 6px;
+  padding: 15px;
+  transition: all 250ms ease;
+}
 
+.btn-ghost:hover,
+.btn-ghost:focus {
+  background-color: rgba(180, 255, 244, .2);
+  border: 2px solid #b4fff4;
+}
+
+.icon {
+  bottom: 2px;
+}
+
+.btn,
+.icon {
+  transition: all 250ms ease;
+}
+
+.btn:active {
+  top: 1em;
+  transform: translateY(2px);
+}
+
+.btn-ghost:hover .icon {
+  transform: translateY(-8px);
 }
